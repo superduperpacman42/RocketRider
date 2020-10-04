@@ -1,0 +1,13 @@
+import numpy as np
+
+PIXEL_RATIO = 1
+WIDTH = 800
+HEIGHT = 600
+MAX_WIDTH = np.sqrt(WIDTH*WIDTH+HEIGHT*HEIGHT)*1.5
+SPEED = .02
+TIME_STEP = 60 # Frames per second
+ANG_STEP = 1
+SCALE = 56/2
+D_THETA = 5
+OVERLAP_DIST = 2
+FONT_SIZE = 40
